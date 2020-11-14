@@ -18,9 +18,11 @@ intents:
 - need_food
 - express_positive_feeling
 - express_negative_feeling
+- express_vague_feeling
 
 entities:
-- feeling
+- positive_feeling
+- negative_feeling
 
 responses:
   utter_greet:
@@ -52,8 +54,10 @@ responses:
   - text: I imagine that's though
   utter_anything_else:
   - text: Can I help you with anything else?
-  utter_confirm_feeling:
-  - text: "So, you are feeling {feeling}?"
+  utter_confirm_negative_feeling:
+  - text: "So, you are feeling {negative_feeling}?"
+  utter_confirm_positive_feeling:
+  - text: "So, you are feeling {positive_feeling}?"
   utter_positive_deny:
   - text: "I misunderstood, can you elaborate?"
   utter_negative_deny:
@@ -63,10 +67,13 @@ responses:
   
 
 slots:
-  feeling:
+  positive_feeling:
+    type: text
+  negative_feeling:
     type: text
 
 actions:
-  - utter_confirm_feeling
+  - utter_confirm_positive_feeling
+  - utter_confirm_negative_feeling
 
 

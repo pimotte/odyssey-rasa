@@ -12,45 +12,50 @@
 - Hi!
 
 ## intent:express_positive_feeling
-- I am feeling [friendly]{"entity": "feeling", "value": "affectionate"}
-- Mostly [compassionate]{"entity": "feeling", "value": "affectionate"}
-- Very [empowered]{"entity": "feeling", "value": "confident"}
-- I'm so [engaged]{"entity": "feeling", "value": "confident"}
-- I'm so [excited](feeling), and I just can't hide it.
-- It's just [blissful]{"entity": "feeling", "value": "exhilarated"}
-- I'm very [thankful]{"entity": "feeling", "value": "grateful"}
-- I'm just so [optimistic]{"entity": "feeling", "value": "hopeful"}
-- I feel [delighted]{"entity": "feeling", "value": "joyful"}
-- I'm so very [awed]{"entity": "feeling", "value": "inspired"}
-- Really [calm]{"entity": "feeling", "value": "peaceful"}, actually.
-- I'm feeling [rested]{"entity": "feeling", "value": "refreshed"}
-- Pretty [awesome](feeling)
-- I am [happy](feeling) and [relaxed](feeling)
-- [grea](feeling)t
+- I am feeling [friendly]{"entity": "positive_feeling", "value": "affectionate"}
+- Mostly [compassionate]{"entity": "positive_feeling", "value": "affectionate"}
+- Very [empowered]{"entity": "positive_feeling", "value": "confident"}
+- I'm so [engaged]{"entity": "positive_feeling", "value": "confident"}
+- I'm so [excited](positive_feeling), and I just can't hide it.
+- It's just [blissful]{"entity": "positive_feeling", "value": "exhilarated"}
+- I'm very [thankful]{"entity": "positive_feeling", "value": "grateful"}
+- I'm just so [optimistic]{"entity": "positive_feeling", "value": "hopeful"}
+- I feel [delighted]{"entity": "positive_feeling", "value": "joyful"}
+- I'm so very [awed]{"entity": "positive_feeling", "value": "inspired"}
+- Really [calm]{"entity": "positive_feeling", "value": "peaceful"}, actually.
+- I'm feeling [rested]{"entity": "positive_feeling", "value": "refreshed"}
+- Pretty [awesome](positive_feeling)
+- I am [happy](positive_feeling) and [relaxed](positive_feeling)
+- [great](positive_feeling)
 - Relaxed and we;;-slept
-- Quite [alright](feeling), [cheerful](feeling)
+- Quite [alright](positive_feeling), [cheerful](positive_feeling)
 
 ## intent:express_negative_feeling
-- I am feeling [dread]{"entity": "feeling", "value": "afraid"}
-- I'm feeling [apprehensive]{"entity": "feeling", "value": "afraid"}
-- Very [aggravated]{"entity": "feeling", "value": "annoyed"}
-- Really [annoyed](feeling)
-- I'm so [angry](feeling)!
-- I feel [aversion](feeling) to something
-- I'm really [disconnected](feeling) to everyone
-- I have some [disquiet](feeling)
-- I am so [embarrased](feeling)
-- I have [fatigue](feeling)
-- I am in [pain](feeling)
-- I am feeling [sad](feeling)
-- I am really [tense](feeling)
-- I'm feeling a bit [vulnerable](feeling)
-- I'm [yearning](feeling) for something
-- [angry](feeling)
-- a bit [depressed](feeling)
-- [sad](feeling)
-- today? [so so](feeling) I guess
-- I'm feeling a bit [frustrated](feeling)
+- I am feeling [dread]{"entity": "negative_feeling", "value": "afraid"}
+- I'm feeling [apprehensive]{"entity": "negative_feeling", "value": "afraid"}
+- Very [aggravated]{"entity": "negative_feeling", "value": "annoyed"}
+- Really [annoyed](negative_feeling)
+- I'm so [angry](negative_feeling)!
+- I feel [aversion](negative_feeling) to something
+- I'm really [disconnected](negative_feeling) to everyone
+- I have some [disquiet](negative_feeling)
+- I am so [embarrased](negative_feeling)
+- I have [fatigue](negative_feeling)
+- I am in [pain](negative_feeling)
+- I am feeling [sad](negative_feeling)
+- I am really [tense](negative_feeling)
+- I'm feeling a bit [vulnerable](negative_feeling)
+- I'm [yearning](negative_feeling) for something
+- [angry](negative_feeling)
+- a bit [depressed](negative_feeling)
+- [sad](negative_feeling)
+- today? [so so](negative_feeling) I guess
+- I'm feeling a bit [frustrated](negative_feeling)
+
+
+## intent:express_vague_feeling
+- I don't know how I'm feeling
+- I'm feeling so-so
 
 ## intent:affirm
 - Yes
