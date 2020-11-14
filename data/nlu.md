@@ -9,6 +9,7 @@
 - hello there
 - Hello there
 - Hello
+- Hi!
 
 ## intent:express_positive_feeling
 - I am feeling [friendly]{"entity": "feeling", "value": "affectionate"}
@@ -24,6 +25,10 @@
 - Really [calm]{"entity": "feeling", "value": "peaceful"}, actually.
 - I'm feeling [rested]{"entity": "feeling", "value": "refreshed"}
 - Pretty [awesome](feeling)
+- I am [happy](feeling) and [relaxed](feeling)
+- [grea](feeling)t
+- Relaxed and we;;-slept
+- Quite [alright](feeling), [cheerful](feeling)
 
 ## intent:express_negative_feeling
 - I am feeling [dread]{"entity": "feeling", "value": "afraid"}
@@ -41,16 +46,28 @@
 - I am really [tense](feeling)
 - I'm feeling a bit [vulnerable](feeling)
 - I'm [yearning](feeling) for something
+- [angry](feeling)
+- a bit [depressed](feeling)
+- [sad](feeling)
+- today? [so so](feeling) I guess
+- I'm feeling a bit [frustrated](feeling)
 
 ## intent:affirm
 - Yes
 - Yep
 - Ya
 - Yeah
+- yup
+- yes
 
 ## intent:deny
 - No
 - Nope
+- NO
+- no
+
+## intent:ask_bot_question
+- How are you feeling?
 
 ## synonym:affectionate
 - friendly
@@ -126,6 +143,7 @@
 - perplexed
 - puzzled
 - torn
+- so so
 
 ## synonym:disconnected
 - alienated
@@ -206,6 +224,7 @@
 - rapturous
 - thrilled
 - awesome
+- grea
 
 ## synonym:fatigue
 - beat
@@ -234,6 +253,7 @@
 - awed
 - amazed
 - wonder
+- alright
 
 ## synonym:joyful
 - delighted
