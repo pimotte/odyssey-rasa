@@ -10,6 +10,7 @@
 - Hello there
 - Hello
 - Hi!
+- Hi ...
 
 ## intent:express_positive_feeling
 - I am feeling [friendly]{"entity": "feeling", "value": "affectionate"}
@@ -25,7 +26,7 @@
 - Really [calm]{"entity": "feeling", "value": "peaceful"}, actually.
 - I'm feeling [rested]{"entity": "feeling", "value": "refreshed"}
 - Pretty [awesome](feeling)
-- I am [happy](feeling) and [relaxed](feeling)
+- I am happy and [relaxed](feeling)
 - [grea](feeling)t
 - Relaxed and we;;-slept
 - Quite [alright](feeling), [cheerful](feeling)
@@ -51,6 +52,10 @@
 - [sad](feeling)
 - today? [so so](feeling) I guess
 - I'm feeling a bit [frustrated](feeling)
+- I had [hoped to do more](feeling)
+- A bit [sad](feeling)
+- [frustrated](feeling) and angry
+- First I felt [frustrated](feeling), afterwards I felt angry
 
 ## intent:affirm
 - Yes
@@ -112,6 +117,7 @@
 - impatient
 - irritated
 - irked
+- hoped to do more
 
 ## synonym:aversion
 - animosity
