@@ -7,6 +7,8 @@
 - hey there
 - Yo
 - hello there
+- Hello there
+- Hello
 
 ## intent:express_positive_feeling
 - I am feeling [friendly]{"entity": "feeling", "value": "affectionate"}
@@ -21,6 +23,7 @@
 - I'm so very [awed]{"entity": "feeling", "value": "inspired"}
 - Really [calm]{"entity": "feeling", "value": "peaceful"}, actually.
 - I'm feeling [rested]{"entity": "feeling", "value": "refreshed"}
+- Pretty [awesome](feeling)
 
 ## intent:express_negative_feeling
 - I am feeling [dread]{"entity": "feeling", "value": "afraid"}
@@ -59,8 +62,8 @@
 - warm
 
 ## synonym:afraid
-- apprehensive
 - dread
+- apprehensive
 - foreboding
 - frightened
 - mistrustful
@@ -71,6 +74,16 @@
 - terrified
 - wary
 - worried
+
+## synonym:angry
+- enraged
+- furious
+- incensed
+- indignant
+- irate
+- livid
+- outraged
+- resentful
 
 ## synonym:annoyed
 - aggravated
@@ -83,16 +96,6 @@
 - irritated
 - irked
 
-## synonym:angry
-- enraged
-- furious
-- incensed
-- indignant
-- irate
-- livid
-- outraged
-- resentful
-
 ## synonym:aversion
 - animosity
 - appalled
@@ -103,6 +106,14 @@
 - horrified
 - hostile
 - repulsed
+
+## synonym:confident
+- empowered
+- engaged
+- open
+- proud
+- safe
+- secure
 
 ## synonym:confused
 - ambivalent
@@ -157,93 +168,6 @@
 - mortified
 - self-conscious
 
-## synonym:fatigue
-- beat
-- burnt out
-- depleted
-- exhausted
-- lethargic
-- listless
-- sleepy
-- tired
-- weary
-- worn out
-
-## synonym:pain
-
-- agony
-- anguished
-- bereaved
-- devastated
-- grief
-- heart
-- broken
-- hurt
-- lonely
-- miserable
-- regretful
-- remorseful
-
-## synonym:sad
-
-- depressed
-- dejected
-- despair
-- despondent
-- disappointed
-- discouraged
-- disheartened
-- forlorn
-- gloomy
-- heavy hearted
-- hopeless
-- melancholy
-- unhappy
-- wretched
-
-## synonym:tense
-
-- anxious
-- cranky
-- distressed
-- distraught
-- edgy
-- fidgety
-- frazzled
-- irritable
-- jittery
-- nervous
-- overwhelmed
-- restless
-- stressed out
-
-## synonym:vulnerable
-- fragile
-- guarded
-- helpless
-- insecure
-- leery
-- reserved
-- sensitive
-- shaky
-
-## synonym:yearning
-
-- envious
-- jealous
-- longing
-- nostalgic
-- pining
-- wistful
-
-## synonym:confident
-- empowered
-- engaged
-- open
-- proud
-- safe
-- secure
-
 ## synonym:engaged
 - absorbed
 - alert
@@ -281,6 +205,19 @@
 - radiant
 - rapturous
 - thrilled
+- awesome
+
+## synonym:fatigue
+- beat
+- burnt out
+- depleted
+- exhausted
+- lethargic
+- listless
+- sleepy
+- tired
+- weary
+- worn out
 
 ## synonym:grateful
 - thankful
@@ -293,6 +230,11 @@
 - expectant
 - encouraged
 
+## synonym:inspired
+- awed
+- amazed
+- wonder
+
 ## synonym:joyful
 - delighted
 - amused
@@ -302,14 +244,23 @@
 - pleased
 - tickled
 
-## synonym:inspired
-- amazed
-- awed
-- wonder
+## synonym:pain
+- agony
+- anguished
+- bereaved
+- devastated
+- grief
+- heart
+- broken
+- hurt
+- lonely
+- miserable
+- regretful
+- remorseful
 
 ## synonym:peaceful
 - calm
-- clearheaded 
+- clearheaded
 - comfortable
 - centered
 - content
@@ -326,9 +277,58 @@
 - trusting
 
 ## synonym:refreshed
+- rested
 - enlivened
 - rejuvenated
 - renewed
-- rested
 - restored
 - revived
+
+## synonym:sad
+- depressed
+- dejected
+- despair
+- despondent
+- disappointed
+- discouraged
+- disheartened
+- forlorn
+- gloomy
+- heavy hearted
+- hopeless
+- melancholy
+- unhappy
+- wretched
+
+## synonym:tense
+- anxious
+- cranky
+- distressed
+- distraught
+- edgy
+- fidgety
+- frazzled
+- irritable
+- jittery
+- nervous
+- overwhelmed
+- restless
+- stressed out
+
+## synonym:vulnerable
+- fragile
+- guarded
+- helpless
+- insecure
+- leery
+- reserved
+- sensitive
+- shaky
+
+## synonym:yearning
+- envious
+- jealous
+- longing
+- nostalgic
+- pining
+- wistful
