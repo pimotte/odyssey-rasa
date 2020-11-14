@@ -1,27 +1,19 @@
-version: "2.0"
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
-  store_entities_as_slots: true
 intents:
 - greet
-- goodbye
 - affirm
 - deny
-- need_cheer_up
-- need_financial_support
-- need_proof
-- need_something_else
-- mood_great
-- mood_unhappy
-- bot_challenge
-- need_food
 - express_positive_feeling
 - express_negative_feeling
-
+- ask_bot_question
 entities:
 - feeling
-
+slots:
+  feeling:
+    type: text
+    influence_conversation: true
 responses:
   utter_greet:
   - text: Hey! What do you need?
@@ -53,20 +45,12 @@ responses:
   utter_anything_else:
   - text: Can I help you with anything else?
   utter_confirm_feeling:
-  - text: "So, you are feeling {feeling}?"
+  - text: So, you are feeling {feeling}?
   utter_positive_deny:
-  - text: "I misunderstood, can you elaborate?"
+  - text: I misunderstood, can you elaborate?
   utter_negative_deny:
-  - text: "I'm sorry I misunderstood, can you elaborate?"
+  - text: I'm sorry I misunderstood, can you elaborate?
   utter_elaborate:
-  - text: "I don't quite get it, can you elaborate?"
-  
-
-slots:
-  feeling:
-    type: text
-
+  - text: I don't quite get it, can you elaborate?
 actions:
-  - utter_confirm_feeling
-
-
+- utter_confirm_feeling
