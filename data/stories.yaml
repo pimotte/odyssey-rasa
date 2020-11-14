@@ -20,3 +20,11 @@ stories:
   - intent: deny
   - action: utter_positive_deny
 
+- story: express_feeling_negative_correct
+  steps:
+  - intent: express_negative_feeling
+  - action: utter_confirm_feeling
+  - intent: affirm
+  - action: utter_negative_confirm
+  - action: utter_ask_howyoufeel
+

@@ -17,6 +17,7 @@ intents:
 - bot_challenge
 - need_food
 - express_positive_feeling
+- express_negative_feeling
 
 entities:
 - feeling
@@ -47,6 +48,8 @@ responses:
   - text: How are you feeling today?
   utter_positive_confirm:
   - text: That's great!
+  utter_negative_confirm:
+  - text: I imagine that's though
   utter_anything_else:
   - text: Can I help you with anything else?
   utter_confirm_feeling:
