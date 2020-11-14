@@ -1,0 +1,65 @@
+version: "2.0"
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+  store_entities_as_slots: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- need_cheer_up
+- need_financial_support
+- need_proof
+- need_something_else
+- mood_great
+- mood_unhappy
+- bot_challenge
+- need_food
+- express_positive_feeling
+
+entities:
+- feeling
+
+responses:
+  utter_greet:
+  - text: Hey! What do you need?
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Here is something to cheer you up:'
+  utter_financial_support:
+  - text: 'Try this new tool to see if you can get support: https://regelingen-check.tno.nl/'
+  utter_proof:
+  - text: 'You can get your proof here: https://uittreksels.nl . It is free and easy!'
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_cant_help:
+  - text: I feel sad I don't know how to help you with that...
+  utter_happy:
+  - text: Happy i could help you. Anything else you need?
+  utter_sorry:
+  - text: Sorry I am of no use for you. Maybe you could try contact a real person.
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am Blue Fairy, powered by Rasa.
+  utter_ask_howyoufeel:
+  - text: How are you feeling today?
+  utter_positive_confirm:
+  - text: That's great!
+  utter_anything_else:
+  - text: Can I help you with anything else?
+  utter_confirm_feeling:
+  - text: "So, you are feeling {feeling}?"
+  utter_positive_deny:
+  - text: I misunderstood, can you elaborate?
+  
+
+slots:
+  feeling:
+    type: text
+
+actions:
+  - utter_confirm_feeling
+
+

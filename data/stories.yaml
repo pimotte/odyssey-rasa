@@ -1,0 +1,22 @@
+version: "2.0"
+stories:
+- story: greet
+  steps:
+  - intent: greet
+  - action: utter_ask_howyoufeel
+  
+- story: express_feeling_positive_correct
+  steps:
+  - intent: express_positive_feeling
+  - action: utter_confirm_feeling
+  - intent: affirm
+  - action: utter_positive_confirm
+  - action: utter_ask_howyoufeel
+
+- story: express_feeling_positive_incorrect
+  steps:
+  - intent: express_positive_feeling
+  - action: utter_confirm_feeling
+  - intent: deny
+  - action: utter_positive_deny
+
