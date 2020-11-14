@@ -15,15 +15,29 @@
 - I'm so [engaged]{"entity": "feeling", "value": "confident"}
 - I'm so [excited](feeling), and I just can't hide it.
 - It's just [blissful]{"entity": "feeling", "value": "exhilarated"}
-- I'm very [thankful]{"entity": "feeling", "value": "grafeful"}
+- I'm very [thankful]{"entity": "feeling", "value": "grateful"}
 - I'm just so [optimistic]{"entity": "feeling", "value": "hopeful"}
 - I feel [delighted]{"entity": "feeling", "value": "joyful"}
+- I'm so very [awed]{"entity": "feeling", "value": "inspired"}
+- Really [calm]{"entity": "feeling", "value": "peaceful"}, actually.
+- I'm feeling [rested]{"entity": "feeling", "value": "refreshed"}
 
 ## intent:express_negative_feeling
 - I am feeling [dread]{"entity": "feeling", "value": "afraid"}
 - I'm feeling [apprehensive]{"entity": "feeling", "value": "afraid"}
 - Very [aggravated]{"entity": "feeling", "value": "annoyed"}
 - Really [annoyed](feeling)
+- I'm so [angry](feeling)!
+- I feel [aversion](feeling) to something
+- I'm really [disconnected](feeling) to everyone
+- I have some [disquiet](feeling)
+- I am so [embarrased](feeling)
+- I have [fatigue](feeling)
+- I am in [pain](feeling)
+- I am feeling [sad](feeling)
+- I am really [tense](feeling)
+- I'm feeling a bit [vulnerable](feeling)
+- I'm [yearning](feeling) for something
 
 ## intent:affirm
 - Yes
@@ -45,12 +59,182 @@
 - warm
 
 ## synonym:afraid
-- dread
 - apprehensive
+- dread
+- foreboding
+- frightened
+- mistrustful
+- panicked
+- petrified
+- scared
+- suspicious
+- terrified
+- wary
+- worried
 
 ## synonym:annoyed
 - aggravated
 - dismayed
+- disgruntled
+- displeased
+- exasperated
+- frustrated
+- impatient
+- irritated
+- irked
+
+## synonym:angry
+- enraged
+- furious
+- incensed
+- indignant
+- irate
+- livid
+- outraged
+- resentful
+
+## synonym:aversion
+- animosity
+- appalled
+- contempt
+- disgusted
+- dislike
+- hate
+- horrified
+- hostile
+- repulsed
+
+## synonym:confused
+- ambivalent
+- baffled
+- bewildered
+- dazed
+- hesitant
+- lost
+- mystified
+- perplexed
+- puzzled
+- torn
+
+## synonym:disconnected
+- alienated
+- aloof
+- apathetic
+- bored
+- cold
+- detached
+- distant
+- distracted
+- indifferent
+- numb
+- removed
+- withdrawn
+
+## synonym:disquiet
+- agitated
+- alarmed
+- discombobulated
+- disconcerted
+- disturbed
+- perturbed
+- rattled
+- shocked
+- startled
+- surprised
+- troubled
+- turbulent
+- turmoil
+- uncomfortable
+- uneasy
+- unnerved
+- unsettled
+- upset
+
+## synonym:embarrased
+- ashamed
+- chagrined
+- flustered
+- mortified
+- self-conscious
+
+## synonym:fatigue
+- beat
+- burnt out
+- depleted
+- exhausted
+- lethargic
+- listless
+- sleepy
+- tired
+- weary
+- worn out
+
+## synonym:pain
+
+- agony
+- anguished
+- bereaved
+- devastated
+- grief
+- heart
+- broken
+- hurt
+- lonely
+- miserable
+- regretful
+- remorseful
+
+## synonym:sad
+
+- depressed
+- dejected
+- despair
+- despondent
+- disappointed
+- discouraged
+- disheartened
+- forlorn
+- gloomy
+- heavy hearted
+- hopeless
+- melancholy
+- unhappy
+- wretched
+
+## synonym:tense
+
+- anxious
+- cranky
+- distressed
+- distraught
+- edgy
+- fidgety
+- frazzled
+- irritable
+- jittery
+- nervous
+- overwhelmed
+- restless
+- stressed out
+
+## synonym:vulnerable
+- fragile
+- guarded
+- helpless
+- insecure
+- leery
+- reserved
+- sensitive
+- shaky
+
+## synonym:yearning
+
+- envious
+- jealous
+- longing
+- nostalgic
+- pining
+- wistful
 
 ## synonym:confident
 - empowered
@@ -75,7 +259,6 @@
 - stimulated
 
 ## synonym:excited
-- amazed
 - animated
 - ardent
 - aroused
@@ -87,7 +270,6 @@
 - invigorated
 - lively
 - passionate
-- surprised
 - vibrant
 
 ## synonym:exhilarated
@@ -119,3 +301,34 @@
 - jubilant
 - pleased
 - tickled
+
+## synonym:inspired
+- amazed
+- awed
+- wonder
+
+## synonym:peaceful
+- calm
+- clearheaded 
+- comfortable
+- centered
+- content
+- equanimity
+- fulfilled
+- mellow
+- quiet
+- relaxed
+- relieved
+- satisfied
+- serene
+- still
+- tranquil
+- trusting
+
+## synonym:refreshed
+- enlivened
+- rejuvenated
+- renewed
+- rested
+- restored
+- revived

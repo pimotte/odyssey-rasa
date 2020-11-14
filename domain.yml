@@ -55,7 +55,11 @@ responses:
   utter_confirm_feeling:
   - text: "So, you are feeling {feeling}?"
   utter_positive_deny:
-  - text: I misunderstood, can you elaborate?
+  - text: "I misunderstood, can you elaborate?"
+  utter_negative_deny:
+  - text: "I'm sorry I misunderstood, can you elaborate?"
+  utter_elaborate:
+  - text: "I don't quite get it, can you elaborate?"
   
 
 slots:
