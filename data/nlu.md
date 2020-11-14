@@ -6,13 +6,14 @@
 - good evening
 - hey there
 - Yo
+- hello there
 
 ## intent:express_positive_feeling
 - I am feeling [friendly]{"entity": "feeling", "value": "affectionate"}
 - Mostly [compassionate]{"entity": "feeling", "value": "affectionate"}
 - Very [empowered]{"entity": "feeling", "value": "confident"}
 - I'm so [engaged]{"entity": "feeling", "value": "confident"}
-- I'm so [excited]{"entity": "feeling"}, and I just can't hide it.
+- I'm so [excited](feeling), and I just can't hide it.
 - It's just [blissful]{"entity": "feeling", "value": "exhilarated"}
 - I'm very [thankful]{"entity": "feeling", "value": "grafeful"}
 - I'm just so [optimistic]{"entity": "feeling", "value": "hopeful"}
@@ -22,8 +23,7 @@
 - I am feeling [dread]{"entity": "feeling", "value": "afraid"}
 - I'm feeling [apprehensive]{"entity": "feeling", "value": "afraid"}
 - Very [aggravated]{"entity": "feeling", "value": "annoyed"}
-- Really [annoyed]{"entity": "feeling"}
-
+- Really [annoyed](feeling)
 
 ## intent:affirm
 - Yes
@@ -36,16 +36,25 @@
 - Nope
 
 ## synonym:affectionate
-- compassionate
 - friendly
+- compassionate
 - loving
 - openhearted
 - sympathetic
 - tender
 - warm
 
+## synonym:afraid
+- dread
+- apprehensive
+
+## synonym:annoyed
+- aggravated
+- dismayed
+
 ## synonym:confident
 - empowered
+- engaged
 - open
 - proud
 - safe
@@ -58,10 +67,10 @@
 - engrossed
 - enchanted
 - entranced
-- fascinated 
-- interested 
-- intrigued 
-- involved 
+- fascinated
+- interested
+- intrigued
+- involved
 - spellbound
 - stimulated
 
@@ -92,31 +101,21 @@
 - thrilled
 
 ## synonym:grateful
+- thankful
 - appreciative
 - moved
-- thankful
 - touched
 
 ## synonym:hopeful
+- optimistic
 - expectant
 - encouraged
-- optimistic
 
 ## synonym:joyful
-- amused
 - delighted
+- amused
 - glad
 - happy
 - jubilant
 - pleased
 - tickled
-
-
-## synonym:afraid
-- apprehensive
-- dread
-
-## synonym:annoyed
-- aggravated
-- dismayed
-
