@@ -38,7 +38,8 @@
 - [great](positive_feeling)
 - Relaxed and we;;-slept
 - Quite [alright](positive_feeling), [cheerful](positive_feeling)
-- [Nice]()
+- [Nice](positive_feeling)
+- I'm feeling [competent](confident)
 
 ## intent:express_negative_feeling
 - I am feeling [dread]{"entity": "negative_feeling", "value": "afraid"}
@@ -61,6 +62,11 @@
 - [sad](negative_feeling)
 - today? [so so](negative_feeling) I guess
 - I'm feeling a bit [frustrated](negative_feeling)
+- [tired]{"entity": "negative_feeling", "value": "fatigue"}
+- Little bit [stiff]{"entity": "negative_feeling", "value": "fatigue"} in the muscles
+- I have [no one]{"entity": "negative_feeling", "value": "disconnected"} to talk to
+- [Confused](negative_feeling)
+- Now I feel [frustated]{"entity": "negative_feeling", "value": "annoyed"}
 
 ## intent:express_need
 - I need [air]{"entity": "need", "value": "physical sustenance"}
@@ -74,6 +80,9 @@
 - I have a need for [understanding](need)
 - I would like to find [meaning](need)
 - I am searching for [transcendence](need)
+- A [hug]{"entity": "need", "value": "physical sustenance"} would be nice
+- [Beer]{"entity": "need", "value": "physical sustenance"} then?
+- in need for [massage]{"entity": "need", "value": "physical sustenance"} and some [movement]{"entity": "need", "value": "physical sustenance"}
 
 
 ## intent:express_vague_feeling
