@@ -10,8 +10,16 @@ stories:
   - intent: express_positive_feeling
   - action: utter_confirm_positive_feeling
   - intent: affirm
-  - action: utter_positive_confirm
-  - action: utter_ask_howyoufeel
+  - action: utter_ask_contact_for_offer
+
+- story: express_feeling_positive_correct_with_contact
+  steps:
+  - intent: express_positive_feeling
+  - action: utter_confirm_positive_feeling
+  - intent: affirm
+  - action: utter_ask_contact_for_offer
+  - intent: contact_details
+  - action: utter_thanks_for_leaving_details
 
 - story: express_feeling_positive_incorrect
   steps:
@@ -25,9 +33,25 @@ stories:
   - intent: express_negative_feeling
   - action: utter_confirm_negative_feeling
   - intent: affirm
-  - action: utter_negative_confirm
-  - action: utter_ask_howyoufeel
+  - action: utter_ask_for_need
 
+- story: express_need_correct
+  steps:
+  - intent: express_need
+  - action: utter_confirm_need
+  - intent: affirm
+  - action: utter_thank_you_for_need
+  - action: utter_ask_contact_details
+
+- story: express_need_correct_with_contact
+  steps:
+  - intent: express_need
+  - action: utter_confirm_need
+  - intent: affirm
+  - action: utter_thank_you_for_need
+  - action: utter_ask_contact_details
+  - intent: contact_details
+  - action: utter_thanks_for_leaving_details
 
 - story: express_feeling_negative_incorrect
   steps:

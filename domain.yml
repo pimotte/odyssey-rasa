@@ -7,22 +7,17 @@ intents:
 - deny
 - express_positive_feeling
 - express_negative_feeling
-<<<<<<< HEAD
 - express_vague_feeling
+- express_need
+- explain
+- contact_details
 
 entities:
 - positive_feeling
 - negative_feeling
+- need
 
-=======
-- ask_bot_question
-entities:
-- feeling
-slots:
-  feeling:
-    type: text
-    influence_conversation: true
->>>>>>> 0204da92e5dc654bb65dbf6562588b458fcf1433
+
 responses:
   utter_greet:
   - text: Hey! What do you need?
@@ -47,6 +42,11 @@ responses:
   - text: I am Blue Fairy, powered by Rasa.
   utter_ask_howyoufeel:
   - text: How are you feeling today?
+  - text: How are you feeling now?
+  - text: What are you feeling now?
+  - text: What are you feeling today?
+  - text: How do you feel in this moment?
+  - text: How are you feeling in this moment?
   utter_positive_confirm:
   - text: That's great!
   utter_negative_confirm:
@@ -57,13 +57,26 @@ responses:
   - text: "So, you are feeling {negative_feeling}?"
   utter_confirm_positive_feeling:
   - text: "So, you are feeling {positive_feeling}?"
-
+  utter_confirm_need:
+  - text: "So, you have a need for {need}?"
   utter_positive_deny:
   - text: I misunderstood, can you elaborate?
   utter_negative_deny:
   - text: I'm sorry I misunderstood, can you elaborate?
   utter_elaborate:
   - text: "I don't quite get it, can you elaborate?"
+  utter_ask_for_need:
+  - text: "What do you need that would help you feel better?"
+  utter_thank_you_for_need:
+  - text: Thank you for expressing your need
+  utter_ask_contact_details:
+  - text: If you would like to, please leave contact details with me if you would like to be helped with this need.
+  utter_ask_howcomeyoufeel:
+  - text: How come you feel this way?
+  utter_ask_contact_for_offer:
+  - text: If you would like to help someone else feel this way, please leave your contact details.
+  utter_thanks_for_leaving_details:
+  - text: Thanks for leaving your details. Do you have more feelings you would like to express?
   
 
 slots:
@@ -71,8 +84,11 @@ slots:
     type: text
   negative_feeling:
     type: text
+  need:
+    type: text
 
 actions:
   - utter_confirm_positive_feeling
   - utter_confirm_negative_feeling
+  - utter_confirm_need
 

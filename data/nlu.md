@@ -11,6 +11,15 @@
 - Hello
 - Hi!
 
+## intent:explain
+- Because something happened
+- Well, someone helped me
+- Maybe it is because something happened
+
+## intent:contact_details
+- You can reach me at example@example.com
+- My discord is example#1234
+
 ## intent:express_positive_feeling
 - I am feeling [friendly]{"entity": "positive_feeling", "value": "affectionate"}
 - Mostly [compassionate]{"entity": "positive_feeling", "value": "affectionate"}
@@ -29,6 +38,7 @@
 - [great](positive_feeling)
 - Relaxed and we;;-slept
 - Quite [alright](positive_feeling), [cheerful](positive_feeling)
+- [Nice]()
 
 ## intent:express_negative_feeling
 - I am feeling [dread]{"entity": "negative_feeling", "value": "afraid"}
@@ -52,10 +62,25 @@
 - today? [so so](negative_feeling) I guess
 - I'm feeling a bit [frustrated](negative_feeling)
 
+## intent:express_need
+- I need [air]{"entity": "need", "value": "physical sustenance"}
+- I am in need of [security](need)
+- I want [autonomy](need)
+- I am in want of [relaxation](need)
+- I desire [affection](need)
+- I would like [to matter](need)
+- I want to belong to a [community](need)
+- I would like to feel [dignity]{"entity": "need", "value": "sense of self"}
+- I have a need for [understanding](need)
+- I would like to find [meaning](need)
+- I am searching for [transcendence](need)
+
 
 ## intent:express_vague_feeling
 - I don't know how I'm feeling
 - I'm feeling so-so
+- Okay
+- Nice
 
 ## intent:affirm
 - Yes
@@ -71,8 +96,19 @@
 - NO
 - no
 
+## intent:goodbye
+- Bye
+- Cya
+- See ya
+- Later
+- Good night
+- 
+
 ## intent:ask_bot_question
 - How are you feeling?
+- How are you feeling now?
+- What are you feeling?
+
 
 ## synonym:affectionate
 - friendly
@@ -357,3 +393,134 @@
 - nostalgic
 - pining
 - wistful
+
+## synonym:physical sustenance
+- air
+- food
+- health
+- movement
+- physical safety
+- rest
+- sleep
+- shelter
+- touch
+- water
+
+## synonym:security
+- consistency
+- order
+- structure
+- peace
+- peace of mind
+- protection
+- safety
+- stability
+- trusting
+
+## synonym:autonomy
+- choice
+- ease
+- independence
+- power
+- self-responsibility
+- space
+- spontaneity
+
+## synonym:relaxation
+- leisure
+- humour
+- humor
+- joy
+- play
+- pleasure
+- rejuvenation
+
+## synonym:affection
+- appreciation
+- attention
+- closeness
+- companionship
+- harmony
+- intimacy
+- love
+- nurturing
+- sexual expression
+- support
+- tenderness
+
+## synonym:mattering
+- acceptance
+- care
+- compassion
+- consideration
+- empathy
+- kindness
+- mutual recognition
+- respect
+- to be heard
+- to be seen
+- to be known
+- to be understood
+- to be trusted
+- understanding others
+
+## synonym:community
+- belonging
+- communication
+- cooperation
+- equality
+- inclusion
+- mutuality
+- participation
+- self-expression
+- sharing
+
+
+## synonym:sense of self
+- authenticity
+- competence
+- creativity
+- dignity
+- growth
+- healing
+- honesty
+- integrity
+- self-acceptance
+- self-care
+- self-connection
+- self-knowledge
+- self-realization
+- mattering to myself
+
+## synonym:understanding
+- awareness
+- clarity
+- discovery
+- learning
+- making sense of life
+- stimulation
+
+
+## synonym:meaning
+- aliveness
+- challenge
+- conciousness
+- contribution
+- creativity
+- effectiveness
+- exploration
+- integration
+- purpose
+
+## synonym:transcendence
+- beauty
+- celebration of life
+- communion
+- faith
+- flow
+- hope
+- inspiration
+- mourning
+- peace of mind
+- presence
+
