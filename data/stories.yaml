@@ -4,7 +4,6 @@ stories:
   steps:
   - intent: greet
   - action: utter_ask_howyoufeel
-  
 - story: express_feeling_positive_correct
   steps:
   - intent: express_positive_feeling

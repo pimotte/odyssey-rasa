@@ -17,8 +17,10 @@
 - Maybe it is because something happened
 
 ## intent:contact_details
-- You can reach me at example@example.com
-- My discord is example#1234
+- You can reach me at [example@example.com](identifier)
+- My discord is [example#1234](identifier)
+- My name is [Pim](identifier)
+- My name is [Amma](identifier)
 
 ## intent:express_positive_feeling
 - I am feeling [friendly]{"entity": "positive_feeling", "value": "affectionate"}
@@ -36,10 +38,13 @@
 - Pretty [awesome](positive_feeling)
 - I am [happy](positive_feeling) and [relaxed](positive_feeling)
 - [great](positive_feeling)
-- Relaxed and we;;-slept
+- [Relaxed]{"entity": "positive_feeling", "value": "refreshed"} and [well-slept]{"entity": "positive_feeling", "value": "refreshed"}
 - Quite [alright](positive_feeling), [cheerful](positive_feeling)
 - [Nice](positive_feeling)
-- I'm feeling [competent](confident)
+- I'm feeling [competent]{"entity": "positive_feeling", "value": "confident"}
+- I feel [understood]{"entity": "positive_feeling", "value": "engaged"}
+- I'm [proud]{"entity": "positive_feeling", "value": "confident"}
+- I feel [connected]{"entity": "positive_feeling", "value": "affection"}
 
 ## intent:express_negative_feeling
 - I am feeling [dread]{"entity": "negative_feeling", "value": "afraid"}
@@ -67,6 +72,12 @@
 - I have [no one]{"entity": "negative_feeling", "value": "disconnected"} to talk to
 - [Confused](negative_feeling)
 - Now I feel [frustated]{"entity": "negative_feeling", "value": "annoyed"}
+- I feel [alone]{"entity": "negative_feeling", "value": "disconnected"}
+- I feel [lost]{"entity": "negative_feeling", "value": "disconnected"}
+- i feel [misunderstood]{"entity": "negative_feeling", "value": "disconnected"}
+- I'm feeling [sore]{"entity": "negative_feeling", "value": "pain"}
+- I'm [afraid]{"entity": "negative_feeling", "value": "afraid"}
+- I'm so [scared]{"entity": "negative_feeling", "value": "afraid"}
 
 ## intent:express_need
 - I need [air]{"entity": "need", "value": "physical sustenance"}
@@ -83,7 +94,10 @@
 - A [hug]{"entity": "need", "value": "physical sustenance"} would be nice
 - [Beer]{"entity": "need", "value": "physical sustenance"} then?
 - in need for [massage]{"entity": "need", "value": "physical sustenance"} and some [movement]{"entity": "need", "value": "physical sustenance"}
-
+- I need [human contact]{"entity": "need", "value": "physical sustenance"} 
+- A [hamburger]{"entity": "need", "value": "physical sustenance"}
+- I have a need for [inclusion]{"entity": "need", "value": "community"}
+- I have a need to be [included]{"entity": "need", "value": "community"}
 
 ## intent:express_vague_feeling
 - I don't know how I'm feeling
@@ -111,7 +125,6 @@
 - See ya
 - Later
 - Good night
-- 
 
 ## intent:ask_bot_question
 - How are you feeling?

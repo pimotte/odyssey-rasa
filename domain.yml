@@ -16,6 +16,7 @@ entities:
 - positive_feeling
 - negative_feeling
 - need
+- identifier
 
 
 responses:
